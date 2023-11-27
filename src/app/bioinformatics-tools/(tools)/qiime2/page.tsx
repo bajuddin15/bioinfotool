@@ -3,7 +3,7 @@ import React from "react";
 import useData from "../../data";
 import Toolinfo from "../components/Toolinfo";
 
-const page = () => {
+const Page = () => {
   const { state } = useData();
   const { toolsData } = state;
   const index = 4;
@@ -15,4 +15,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

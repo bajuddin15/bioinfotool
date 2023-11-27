@@ -14,8 +14,8 @@ const Outlook = () => {
         <div>
           <h2 className="text-lg font-semibold">Outlook :</h2>
           <p className="text-sm text-muted-foreground mt-1 mb-5">
-            The journey doesn't stop here; we have exciting plans for the future
-            of Biotool Hub:
+            The journey doesn&apos;t stop here; we have exciting plans for the
+            future of Biotool Hub:
           </p>
           <ul className="text-muted-foreground text-sm flex flex-col gap-4 mt-1">
             <li>
@@ -55,7 +55,7 @@ const Outlook = () => {
             Join us on this exciting journey as we strive to empower the
             bioinformatics community with the tools and knowledge needed to
             unlock new frontiers in biological discovery. [Your Website Name] is
-            not just a repository; it's a dynamic hub for bioinformatics
+            not just a repository; it&apos;s a dynamic hub for bioinformatics
             excellence. Explore, learn, and innovate with us!
           </p>
         </div>

@@ -18,7 +18,7 @@ export default function Home() {
             tools and resources! We are dedicated to providing a comprehensive
             repository of cutting-edge tools designed to meet the diverse needs
             of bioinformatics enthusiasts, researchers, and students. Whether
-            you're delving into sequence analysis, exploring structural
+            you&apos;re delving into sequence analysis, exploring structural
             bioinformatics, or venturing into genomics, our curated collection
             of tools offers a one-stop solution for your bioinformatics
             endeavors.

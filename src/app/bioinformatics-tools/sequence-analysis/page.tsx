@@ -2,7 +2,7 @@ import Wrapper from "@/components/Wrapper";
 import React from "react";
 import { Link } from "lucide-react";
 
-const page = () => {
+const Page = () => {
   return (
     <Wrapper>
       <div className="flex flex-col gap-5 my-5">
@@ -41,4 +41,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

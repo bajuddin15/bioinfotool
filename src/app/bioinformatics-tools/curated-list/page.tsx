@@ -2,7 +2,7 @@ import Wrapper from "@/components/Wrapper";
 import Link from "next/link";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   const data = [
     {
       name: "Sequence Analysis",
@@ -96,4 +96,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

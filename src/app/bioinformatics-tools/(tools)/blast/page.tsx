@@ -5,7 +5,7 @@ import useData from "../../data";
 import Toolinfo from "../components/Toolinfo";
 import { usePathname } from "next/navigation";
 
-const page = ({ params }: { params: any }) => {
+const Page = ({ params }: { params: any }) => {
   const pathName = usePathname();
   console.log("pathname - ", pathName);
   const { state } = useData();
@@ -19,4 +19,4 @@ const page = ({ params }: { params: any }) => {
   );
 };
 
-export default page;
+export default Page;
