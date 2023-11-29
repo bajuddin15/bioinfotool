@@ -17,10 +17,10 @@ const TutorialGuidePage = () => {
         <div>
           <p className="text-sm text-muted-foreground mt-1 mb-5">
             Explore our comprehensive tutorials and guides designed to help you
-            master bioinformatics tools and analyses. Whether you're a beginner
-            or an experienced researcher, these resources provide step-by-step
-            instructions, practical examples, and valuable insights to enhance
-            your bioinformatics skills.
+            master bioinformatics tools and analyses. Whether you&apos;re a
+            beginner or an experienced researcher, these resources provide
+            step-by-step instructions, practical examples, and valuable insights
+            to enhance your bioinformatics skills.
           </p>
           <ul className="text-muted-foreground text-sm flex flex-col gap-4 mt-1">
             {tutorialsData.map((list, index) => (
