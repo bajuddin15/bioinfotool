@@ -150,6 +150,42 @@ const useData = () => {
             "Systems Biology Modelling Tools"
           )}`,
         },
+        {
+          name: "Database And Retrieval Tools",
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Database And Retrieval Tools"
+          )}`,
+        },
+        {
+          name: "Functional Genomics Tools",
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Functional Genomics Tools"
+          )}`,
+        },
+        {
+          name: "Homology Modeling Tools",
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Homology Modeling Tools"
+          )}`,
+        },
+        {
+          name: "Microbiome Analysis Tools",
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Microbiome Analysis Tools"
+          )}`,
+        },
+        {
+          name: "Structural Bioinformatics Tools",
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Structural Bioinformatics Tools"
+          )}`,
+        },
+        {
+          name: "Miscelleaneous Tools",
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Miscelleaneous Tools"
+          )}`,
+        },
       ],
     },
     {

@@ -23,8 +23,7 @@ const DiscoverToolkit = () => {
             specific research areas. From genomics to structural analysis, find
             the right tools to elevate your research effortlessly. Explore,
             select, and uncover the perfect solutions for your bioinformatics
-            needs. Click on the field of your expertise from the list below to
-            discover and select the perfect tool.
+            needs.
           </p>
           <ul className="text-muted-foreground text-sm flex flex-col gap-4 mt-1">
             {toolkitData.map((item, index) => (
@@ -36,9 +35,7 @@ const DiscoverToolkit = () => {
                 </li>
                 <ul className="list-disc ml-10">
                   {item.data.map((inerItem, index) => (
-                    <li key={index} className="text-blue-500 underline">
-                      {inerItem}
-                    </li>
+                    <li key={index}>{inerItem}</li>
                   ))}
                 </ul>
               </div>

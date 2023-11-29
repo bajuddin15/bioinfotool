@@ -23,7 +23,13 @@ const TutorialInfo = ({ data, index }: { data: any; index: number }) => {
                         index === 1 ? "text-blue-500 underline" : ""
                       } whitespace-normal break-words`}
                     >
-                      {inerItem}
+                      {index === 1 ? (
+                        <a href={inerItem} target="_blank">
+                          {inerItem}
+                        </a>
+                      ) : (
+                        inerItem
+                      )}
                     </li>
                   ))}
                 </ul>

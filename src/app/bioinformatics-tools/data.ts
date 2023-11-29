@@ -1268,6 +1268,396 @@ const toolsList = [
       },
     ],
   },
+  {
+    name: "Database And Retrieval Tools",
+    data: [
+      {
+        name: "Entrez Utilities (E-Utilities)",
+        description:
+          "The NCBI E-Utilities provide a set of server-side programs allowing users to query and retrieve data from various NCBI databases, including PubMed, GenBank, and more.",
+        link: "NCBI E-Utilities",
+      },
+      {
+        name: "BioMart",
+        description:
+          "BioMart is a federated query system for retrieving data from multiple biological databases, including Ensembl, UniProt, and more.",
+        link: "BioMart",
+      },
+      {
+        name: "SRA Toolkit",
+        description:
+          "The Sequence Read Archive (SRA) Toolkit is used to access and manipulate raw sequencing data from the SRA repository.",
+        link: "SRA Toolkit",
+      },
+      {
+        name: "UCSC Genome Browser Table Browser",
+        description:
+          "The Table Browser allows users to query and retrieve genomic annotations, comparative genomics, and more from the UCSC Genome Browser.",
+        link: "UCSC Table Browser",
+      },
+      {
+        name: "Ensembl BioMart",
+        description:
+          "Ensembl BioMart provides an interface for querying Ensembl databases, enabling retrieval of genomic, functional, and comparative genomics data.",
+        link: "Ensembl BioMart",
+      },
+      {
+        name: "UniProt Retrieve/ID Mapping",
+        description:
+          "UniProt offers tools for retrieving protein sequence and annotation data, as well as converting between different protein identifiers.",
+        link: "UniProt Retrieve/ID Mapping",
+      },
+      {
+        name: "KEGG API",
+        description:
+          "The KEGG API allows programmatic access to KEGG databases, enabling retrieval of pathway, gene, and functional information.",
+        link: "KEGG API",
+      },
+      {
+        name: "Reactome Data Service",
+        description:
+          "The Reactome Data Service provides programmatic access to the Reactome pathway database, allowing retrieval of pathway and network data.",
+        link: "Reactome Data Service",
+      },
+      {
+        name: "EBI Search",
+        description:
+          "EBI Search enables users to search and retrieve data from various European Bioinformatics Institute (EBI) databases, including UniProt, InterPro, and more.",
+        link: "EBI Search",
+      },
+      {
+        name: "dbGaP Data Browser",
+        description:
+          "The dbGaP Data Browser facilitates exploration of genetic studies by enabling retrieval of genotype and phenotype data from dbGaP.",
+        link: "dbGaP Data Browser",
+      },
+    ],
+  },
+  {
+    name: "Functional Genomics Tools",
+    data: [
+      {
+        name: "Gene Ontology (GO) Tools",
+        description:
+          "GO tools assist in the functional annotation of genes by categorizing them into defined terms related to molecular function, biological process, and cellular component.",
+        link: "Gene Ontology",
+      },
+      {
+        name: "DAVID Bioinformatics Resources",
+        description:
+          "DAVID (Database for Annotation, Visualization, and Integrated Discovery) offers tools for functional annotation, enrichment analysis, and visualization of gene lists.",
+        link: "DAVID",
+      },
+      {
+        name: "Enrichr",
+        description:
+          "Enrichr is a web-based tool for gene set enrichment analysis, providing links to various databases for functional annotation.",
+        link: "Enrichr",
+      },
+      {
+        name: "WebGestalt",
+        description:
+          "WebGestalt is an enrichment analysis tool that allows users to perform functional enrichment analysis, pathway analysis, and network analysis.",
+        link: "WebGestalt",
+      },
+      {
+        name: "PANTHER (Protein ANalysis THrough Evolutionary Relationships) Classification System",
+        description:
+          "PANTHER provides tools for functional classification of genes and proteins, offering an extensive ontology for biological processes, molecular functions, and pathways.",
+        link: "PANTHER",
+      },
+      {
+        name: "STRING (Search Tool for the Retrieval of Interacting Genes/Proteins)",
+        description:
+          "STRING is a database and tool for predicting protein-protein interactions and functional associations between genes.",
+        link: "STRING",
+      },
+      {
+        name: "GSEA (Gene Set Enrichment Analysis)",
+        description:
+          "GSEA is a computational method for analyzing gene expression data to identify enriched biological pathways and functional gene sets.",
+        link: "GSEA",
+      },
+      {
+        name: "Reactome",
+        description:
+          "Reactome is a curated database of biological pathways and reactions. Its tools enable pathway analysis and visualization.",
+        link: "Reactome",
+      },
+      {
+        name: "MSigDB (Molecular Signatures Database)",
+        description:
+          "MSigDB provides a collection of gene sets for use in gene set enrichment analysis, covering various biological processes, pathways, and functional annotations.",
+        link: "MSigDB",
+      },
+      {
+        name: "GOATOOLS",
+        description:
+          "GOATOOLS is a Python library for performing Gene Ontology and other functional annotation analyses, facilitating the interpretation of large gene lists.",
+        link: "GOATOOLS",
+      },
+    ],
+  },
+  {
+    name: "Homology Modeling Tools",
+    data: [
+      {
+        name: "SWISS-MODEL",
+        description:
+          "SWISS-MODEL is an automated protein structure homology-modeling server that provides high-quality models for a wide range of species.",
+        link: "SWISS-MODEL",
+      },
+      {
+        name: "Modeller",
+        description:
+          "Modeller is a software package for automated protein structure modeling, using a combination of comparative and ab initio methods.",
+        link: "Modeller",
+      },
+      {
+        name: "Phyre2 (Protein Homology/analogY Recognition Engine 2)",
+        description:
+          "Phyre2 is an online tool for protein structure prediction that employs homology modeling and other techniques to generate structural models.",
+        link: "Phyre2",
+      },
+      {
+        name: "I-TASSER (Iterative Threading ASSEmbly Refinement)",
+        description:
+          "I-TASSER is a hierarchical approach to protein structure prediction that includes template-based modeling, fragment assembly, and iterative refinement.",
+        link: "I-TASSER",
+      },
+      {
+        name: "RaptorX",
+        description:
+          "RaptorX is a protein structure prediction server that uses template-based modeling and advanced machine learning techniques for accurate modeling.",
+        link: "RaptorX",
+      },
+      {
+        name: "RosettaCM (Rosetta Comparative Modeling)",
+        description:
+          "RosettaCM is part of the Rosetta suite and is specifically designed for high-accuracy comparative protein structure modeling.",
+        link: "RosettaCM",
+      },
+      {
+        name: "SWISS-MODEL Workspace",
+        description:
+          "SWISS-MODEL Workspace is an interactive web-based interface that allows users to perform homology modeling, model assessment, and visualization.",
+        link: "SWISS-MODEL Workspace",
+      },
+      {
+        name: "Geno3D",
+        description:
+          "Geno3D is a homology modeling program that predicts the three-dimensional structure of a protein based on the alignment with homologous structures.",
+        link: "Geno3D",
+      },
+      {
+        name: "HHpred",
+        description:
+          "HHpred is a tool for sensitive protein homology detection and structure prediction using pairwise comparison of hidden Markov models (HMMs).",
+        link: "HHpred",
+      },
+      {
+        name: "Robetta",
+        description:
+          "Robetta is a protein structure prediction server that incorporates homology modeling, ab initio modeling, and model refinement.",
+        link: "Robetta",
+      },
+    ],
+  },
+  {
+    name: "Microbiome Analysis Tools",
+    data: [
+      {
+        name: "QIIME 2 (Quantitative Insights Into Microbial Ecology 2)",
+        description:
+          "QIIME 2 is an open-source bioinformatics platform for microbiome analysis. It provides tools for processing and analyzing microbial community data from 16S rRNA and metagenomic sequencing.",
+        link: "QIIME 2",
+      },
+      {
+        name: "mothur",
+        description:
+          "mothur is a bioinformatics tool for microbial ecology. It supports the analysis of 16S rRNA gene sequencing data and provides a suite of tools for community profiling and diversity analysis.",
+        link: "mothur",
+      },
+      {
+        name: "PICRUSt (Phylogenetic Investigation of Communities by Reconstruction of Unobserved States)",
+        description:
+          "PICRUSt predicts functional gene content in microbial communities based on 16S rRNA data. It allows for the inference of metagenomes and functional capabilities.",
+        link: "PICRUSt",
+      },
+      {
+        name: "MetaPhlAn",
+        description:
+          "MetaPhlAn is a metagenomic profiling tool that identifies microbial organisms and their relative abundance in shotgun metagenomic data.",
+        link: "MetaPhlAn",
+      },
+      {
+        name: "LEfSe (Linear discriminant analysis Effect Size)",
+        description:
+          "LEfSe is a tool for identifying features (taxa or functional elements) that are differentially abundant between two or more biological conditions in metagenomic studies.",
+        link: "LEfSe",
+      },
+      {
+        name: "QIIME (Quantitative Insights Into Microbial Ecology)",
+        description:
+          "QIIME is a widely used software suite for the analysis of microbial communities based on 16S rRNA gene sequencing data. QIIME 1 is an earlier version, while QIIME 2 is the updated version.",
+        link: "QIIME 1 | QIIME 2",
+      },
+      {
+        name: "Kraken",
+        description:
+          "Kraken is a taxonomic sequence classifier that assigns taxonomic labels to DNA sequences, enabling rapid and accurate profiling of microbial communities.",
+        link: "Kraken",
+      },
+      {
+        name: "MEGAN (Metagenome Analyzer)",
+        description:
+          "MEGAN is a comprehensive tool for metagenomic analysis that provides visualization and analysis of taxonomic and functional information from shotgun sequencing data.",
+        link: "MEGAN",
+      },
+      {
+        name: "STAMP (Statistical Analysis of Metagenomic Profiles)",
+        description:
+          "STAMP is a software package for statistical analysis of metagenomic data. It provides visualization and statistical tests for differential abundance analysis.",
+        link: "STAMP",
+      },
+      {
+        name: "MetaStats",
+        description:
+          "MetaStats is a tool for detecting differentially abundant features in metagenomic data. It employs statistical methods for comparing microbial community compositions.",
+        link: "MetaStats",
+      },
+    ],
+  },
+  {
+    name: "Structural Bioinformatics Tools",
+    data: [
+      {
+        name: "PyMOL",
+        description:
+          "PyMOL is a user-friendly, open-source molecular visualization system that allows users to visualize and analyze 3D structures of biological macromolecules.",
+        link: "PyMOL",
+      },
+      {
+        name: "ChimeraX",
+        description:
+          "ChimeraX is a powerful tool for the visualization and analysis of molecular structures. It supports tasks such as structural analysis, model building, and interactive visualization.",
+        link: "ChimeraX",
+      },
+      {
+        name: "RasMol",
+        description:
+          "RasMol is a molecular graphics visualization tool for viewing and analyzing biological macromolecules. It supports various molecular file formats.",
+        link: "RasMol",
+      },
+      {
+        name: "VMD (Visual Molecular Dynamics)",
+        description:
+          "VMD is a molecular visualization program that allows users to visualize and analyze molecular dynamics simulations, quantum chemistry calculations, and more.",
+        link: "VMD",
+      },
+      {
+        name: "Modeller",
+        description:
+          "Modeller is a software package for protein structure modeling using comparative modeling techniques. It predicts 3D structures based on homologous structures.",
+        link: "Modeller",
+      },
+      {
+        name: "Phenix",
+        description:
+          "Phenix (Python-based Hierarchical Environment for Integrated Xtallography) is a software suite for the automated determination of macromolecular structures by X-ray crystallography and other methods.",
+        link: "Phenix",
+      },
+      {
+        name: "Swiss-PdbViewer",
+        description:
+          "Swiss-PdbViewer is an application for analyzing and visualizing 3D structures of proteins and nucleic acids. It supports multiple file formats.",
+        link: "Swiss-PdbViewer",
+      },
+      {
+        name: "MolProbity",
+        description:
+          "MolProbity is a tool for validating the accuracy and reliability of 3D structures of macromolecules. It provides analysis and validation of protein structures.",
+        link: "MolProbity",
+      },
+      {
+        name: "DALI (Distance-matrix ALIgnment)",
+        description:
+          "DALI is a structural comparison tool that aligns protein structures based on their three-dimensional coordinates, allowing for the identification of structural similarities.",
+        link: "DALI",
+      },
+      {
+        name: "COOT (Crystallographic Object-Oriented Toolkit)",
+        description:
+          "COOT is a molecular graphics program specifically designed for model building and validation of crystallographic structures.",
+        link: "COOT",
+      },
+    ],
+  },
+  {
+    name: "Miscelleaneous Tools",
+    data: [
+      {
+        name: "Bioconda",
+        description:
+          "Bioconda is a distribution of bioinformatics software for the Conda package manager. It provides a large collection of bioinformatics tools and libraries.",
+        link: "Bioconda",
+      },
+      {
+        name: "Galaxy",
+        description:
+          "Galaxy is an open-source platform for data integration and analysis in bioinformatics. It offers a web-based interface for constructing and running data analysis workflows.",
+        link: "Galaxy",
+      },
+      {
+        name: "Biopython",
+        description:
+          "Biopython is an open-source collection of Python tools and libraries for computational biology and bioinformatics, providing modules for tasks such as sequence analysis and structural bioinformatics.",
+        link: "Biopython",
+      },
+      {
+        name: "BEDTools",
+        description:
+          "BEDTools is a suite of utilities for comparing, summarizing, and manipulating genomic features. It allows for efficient handling of genomic datasets.",
+        link: "BEDTools",
+      },
+      {
+        name: "IGV (Integrative Genomics Viewer)",
+        description:
+          "IGV is a high-performance visualization tool for interactive exploration of large, integrated genomic datasets.",
+        link: "IGV",
+      },
+      {
+        name: "BWA (Burrows-Wheeler Aligner)",
+        description:
+          "BWA is a software package for mapping low-divergent sequences against a large reference genome, such as those from next-generation sequencing platforms.",
+        link: "BWA",
+      },
+      {
+        name: "NCBI BLAST",
+        description:
+          "The Basic Local Alignment Search Tool (BLAST) is a suite of programs for comparing nucleotide or protein sequences against a database for homology searching.",
+        link: "NCBI BLAST",
+      },
+      {
+        name: "FastQC",
+        description:
+          "FastQC is a quality control tool for high-throughput sequence data. It provides a detailed report on the quality of sequencing data.",
+        link: "FastQC",
+      },
+      {
+        name: "SAMtools",
+        description:
+          "SAMtools is a suite of programs for interacting with high-throughput sequencing data in the SAM/BAM format. It includes tools for file conversion, indexing, and variant calling.",
+        link: "SAMtools",
+      },
+      {
+        name: "BEDOPS",
+        description:
+          "BEDOPS is a suite of tools for manipulating genomic datasets, including operations such as set operations, statistical calculations, and file format conversions.",
+        link: "BEDOPS",
+      },
+    ],
+  },
 ];
 
 const useData = () => {
