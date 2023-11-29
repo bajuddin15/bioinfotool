@@ -3,15 +3,16 @@ import React from "react";
 import useData from "./data";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-// import {} from 'lucide-react'
 
-const Sidebar = () => {
+interface IProps {}
+
+const Sidebar: React.FC<IProps> = ({}) => {
   const { state } = useData();
   const { sidebarData } = state;
 
   const pathName = usePathname();
   return (
-    <div className="border-r border-gray-300 py-5 px-5 md:px-10">
+    <div className="md:border-r border-gray-300 py-5 px-5 md:px-10 md:max-h-full md:overflow-y-auto">
       {sidebarData.map((item, index) => (
         <div key={index} className="pb-3">
           <Link href={item.href}>

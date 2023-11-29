@@ -1,6 +1,7 @@
 import React from "react";
 import Wrapper from "./Wrapper";
 import { Menu } from "lucide-react";
+import MobileSidebar from "./MobileSidebar/MobileSidebar";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
           {/* logo */}
           <div className="flex items-center gap-4">
             <div className="flex md:hidden">
-              <Menu size={28} color="white" />
+              <MobileSidebar />
             </div>
             <h2 className="text-white text-2xl font-bold">
               Biotool
