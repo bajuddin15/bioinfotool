@@ -1,16 +1,16 @@
 import Wrapper from "@/components/Wrapper";
 import React from "react";
-import CuratedListTool from "../components/CuratedListTool";
+import TutorialInfo from "../components/TutorialInfo";
 import useData from "../data";
 
 const Page = () => {
   const { state } = useData();
-  const { toolsList } = state;
-  const index = 0;
-  const data = toolsList[index];
+  const { tutorialsData } = state;
+  const index = 4;
+  const data = tutorialsData[index];
   return (
     <Wrapper>
-      <CuratedListTool data={data} index={index} />
+      <TutorialInfo data={data} index={index} />
     </Wrapper>
   );
 };

@@ -12,6 +12,10 @@ const useData = () => {
           name: "Outlook",
           href: "/outlook",
         },
+        {
+          name: "Bioinformatics Toolkit",
+          href: "/discover-toolkit",
+        },
       ],
     },
     {
@@ -72,55 +76,117 @@ const useData = () => {
       data: [
         {
           name: "Sequence Analysis",
-          href: getNameAsHref("Sequence Analysis"),
+          href: `/bioinformatics-tools/${getNameAsHref("Sequence Analysis")}`,
         },
         {
           name: "RNA Sequence Analysis Tools",
-          href: getNameAsHref("RNA Sequence Analysis Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "RNA Sequence Analysis Tools"
+          )}`,
         },
         {
           name: "Protein Sequence Analysis Tools",
-          href: getNameAsHref("Protein Sequence Analysis Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Protein Sequence Analysis Tools"
+          )}`,
         },
         {
           name: "Protein Structure Prediction",
-          href: getNameAsHref("Protein Structure Prediction"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Protein Structure Prediction"
+          )}`,
         },
         {
           name: "Molecular Docking Tools",
-          href: getNameAsHref("Molecular Docking Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Molecular Docking Tools"
+          )}`,
         },
         {
           name: "Structural Variant Analysis Tools",
-          href: getNameAsHref("Structural Variant Analysis Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Structural Variant Analysis Tools"
+          )}`,
         },
         {
           name: "Genome Assembly Tools",
-          href: getNameAsHref("Genome Assembly Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Genome Assembly Tools"
+          )}`,
         },
         {
           name: "Genomic Variant Calling Tools",
-          href: getNameAsHref("Genomic Variant Calling Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Genomic Variant Calling Tools"
+          )}`,
         },
         {
           name: "Comparative Genomics Tools",
-          href: getNameAsHref("Comparative Genomics Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Comparative Genomics Tools"
+          )}`,
         },
         {
           name: "Differential Gene Expression Analysis Tools",
-          href: getNameAsHref("Differential Gene Expression Analysis Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Differential Gene Expression Analysis Tools"
+          )}`,
         },
         {
           name: "Phylogenetic Tree Construction Tools",
-          href: getNameAsHref("Phylogenetic Tree Construction Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Phylogenetic Tree Construction Tools"
+          )}`,
         },
         {
           name: "Metagenome Analysis Tools",
-          href: getNameAsHref("Metagenome Analysis Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Metagenome Analysis Tools"
+          )}`,
         },
         {
           name: "Systems Biology Modelling Tools",
-          href: getNameAsHref("Systems Biology Modelling Tools"),
+          href: `/bioinformatics-tools/${getNameAsHref(
+            "Systems Biology Modelling Tools"
+          )}`,
+        },
+      ],
+    },
+    {
+      name: "Tutorials and Guides",
+      href: "/tutorial-guide",
+      data: [
+        {
+          name: "Getting Started",
+          href: `/tutorial-guide/${getNameAsHref("Getting Started")}`,
+        },
+        {
+          name: "Sequence Analysis",
+          href: `/tutorial-guide/${getNameAsHref("Sequence Analysis")}`,
+        },
+        {
+          name: "Genomics",
+          href: `/tutorial-guide/${getNameAsHref("Genomics")}`,
+        },
+        {
+          name: "Proteomics",
+          href: `/tutorial-guide/${getNameAsHref("Proteomics")}`,
+        },
+        {
+          name: "Structural Bioinformatics",
+          href: `/tutorial-guide/${getNameAsHref("Structural Bioinformatics")}`,
+        },
+        {
+          name: "Transcriptomics",
+          href: `/tutorial-guide/${getNameAsHref("Transcriptomics")}`,
+        },
+        {
+          name: "Functional Annotation",
+          href: `/tutorial-guide/${getNameAsHref("Functional Annotation")}`,
+        },
+        {
+          name: "Molecular Docking",
+          href: `/tutorial-guide/${getNameAsHref("Molecular Docking")}`,
         },
       ],
     },
@@ -140,22 +206,31 @@ const useData = () => {
 
 export default useData;
 
-const data = [
+// const tutorialsData = [
+//   {
+//     name: "Getting Started",
+//     href: `/tutorial-guide/${getNameAsHref("Getting Started")}`,
+//     data:[
+//       {
+//         name:"Introduction to Bioinformatics",
+//         data:[
+//           "A beginner-friendly guide covering the basics of bioinformatics, including key concepts, tools, and common analyses.",
+//           "https://omicstutorials.com/?p=493"
+//         ]
+//       },
+
+//     ]
+//   },
+// ]
+
+const toolsList = [
   {
-    name: "Sequence Analysis :",
+    name: "Sequence Analysis",
     data: [
       {
-        name: "BLAST (Basic Local Alignment Search Tool):",
-        data: [
-          {
-            website: {
-              name: "BLAST",
-              href: "https://blast.com",
-            },
-            description:
-              "A powerful tool for comparing a query sequence against a database, allowing for sequence similarity searches.",
-          },
-        ],
+        name: "BLAST (Basic Local Alignment Search Tool)",
+        description:
+          ": A powerful tool for comparing a query sequence against a database, allowing for sequence similarity searches",
       },
     ],
   },

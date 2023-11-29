@@ -1,4 +1,6 @@
+import { toolsCardImgData } from "@/assets/images";
 import Wrapper from "@/components/Wrapper";
+import Image from "next/image";
 
 export default function Home() {
   const toolsData = [1, 2, 3, 4, 5, 6, 7];
@@ -65,13 +67,16 @@ export default function Home() {
         </div>
 
         {/* all tools in cards */}
-        <div className="grid grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-8">
-          {toolsData.map((tool, index) => (
+        <div className="grid grid-cols-2 gap-x-4 gap-y-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4 lg:gap-8">
+          {toolsCardImgData.map((tool, index) => (
             <div
               key={index}
-              className="bg-white h-40 rounded-3xl p-5 shadow-md border border-gray-300"
+              className="bg-white h-40 rounded-3xl p-5 shadow-md border border-gray-300 flex flex-col justify-between"
             >
-              tool
+              <Image src={tool.img} alt={tool.name} className="w-full h-4/5" />
+              <p className="text-xs text-muted-foreground text-center">
+                {tool.name}
+              </p>
             </div>
           ))}
         </div>
