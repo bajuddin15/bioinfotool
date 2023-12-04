@@ -29,7 +29,7 @@ const DiscoverToolkit = () => {
             {toolkitData.map((item, index) => (
               <div key={index}>
                 <li>
-                  <span className="text-yellow-600 font-semibold">
+                  <span className="text-pink-600 font-semibold">
                     {index + 1}. {item.name}:
                   </span>{" "}
                 </li>

@@ -20,7 +20,7 @@ const useData = () => {
     },
     {
       name: "Featured Bioinformatics Tools",
-      href: "/bioinformatics-tools",
+      href: `/bioinformatics-tools/${getNameAsHref("BLAST")}`,
       data: [
         {
           name: "BLAST",

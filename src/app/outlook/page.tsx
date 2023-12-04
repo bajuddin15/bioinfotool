@@ -19,7 +19,7 @@ const Outlook = () => {
           </p>
           <ul className="text-muted-foreground text-sm flex flex-col gap-4 mt-1">
             <li>
-              <span className="text-yellow-600 font-semibold">
+              <span className="text-pink-600 font-semibold">
                 1. Expanded Tool Coverage:
               </span>{" "}
               We aim to continually broaden our tool coverage, incorporating
@@ -27,7 +27,7 @@ const Outlook = () => {
               bioinformatics research and analysis.
             </li>
             <li>
-              <span className="text-yellow-600 font-semibold">
+              <span className="text-pink-600 font-semibold">
                 2. Educational Resources:
               </span>{" "}
               Look forward to a growing repository of tutorials, guides, and
@@ -35,7 +35,7 @@ const Outlook = () => {
               mastering the use of bioinformatics tools.
             </li>
             <li>
-              <span className="text-yellow-600 font-semibold">
+              <span className="text-pink-600 font-semibold">
                 3. Tool Developer Collaboration:
               </span>{" "}
               We invite tool developers to showcase their innovations, fostering
@@ -43,7 +43,7 @@ const Outlook = () => {
               bioinformatics community.
             </li>
             <li>
-              <span className="text-yellow-600 font-semibold">
+              <span className="text-pink-600 font-semibold">
                 4. Enhanced User Experience:
               </span>{" "}
               We are committed to refining and enhancing the user experience

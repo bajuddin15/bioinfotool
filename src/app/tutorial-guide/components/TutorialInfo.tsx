@@ -14,7 +14,7 @@ const TutorialInfo = ({ data, index }: { data: any; index: number }) => {
           <ul className="list-disc ml-10 mt-2 flex flex-col gap-3">
             {data.data.map((item: any, index: number) => (
               <div key={index}>
-                <li className="text-yellow-500">{item.name}</li>
+                <li className="text-pink-500">{item.name}</li>
                 <ul className="list-disc ml-10 mt-1 flex flex-col gap-3">
                   {item.data.map((inerItem: string, index: number) => (
                     <li

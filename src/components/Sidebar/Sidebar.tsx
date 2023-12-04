@@ -24,7 +24,7 @@ const Sidebar: React.FC<IProps> = ({}) => {
                 <p
                   className={`text-[14px] text-muted-foreground ${
                     pathName === inerItem.href
-                      ? "text-yellow-500 font-semibold"
+                      ? "text-pink-500 font-semibold"
                       : "hover:underline"
                   }`}
                 >

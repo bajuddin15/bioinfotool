@@ -33,7 +33,7 @@ export default function Home() {
           <h2 className="text-lg font-semibold">What Sets Us Apart:</h2>
           <ul className="text-muted-foreground text-sm flex flex-col gap-4 mt-1">
             <li>
-              <span className="text-yellow-600 font-semibold">
+              <span className="text-pink-600 font-semibold">
                 1. Categorized Repository:
               </span>{" "}
               Our user-friendly interface organizes tools into categories,
@@ -41,7 +41,7 @@ export default function Home() {
               your specific requirements.
             </li>
             <li>
-              <span className="text-yellow-600 font-semibold">
+              <span className="text-pink-600 font-semibold">
                 2. Up-to-Date Information:
               </span>{" "}
               We strive to keep our repository current, regularly updating tool
@@ -49,7 +49,7 @@ export default function Home() {
               resources in the dynamic field of bioinformatics.
             </li>
             <li>
-              <span className="text-yellow-600 font-semibold">
+              <span className="text-pink-600 font-semibold">
                 3. User Ratings and Reviews:
               </span>{" "}
               Benefit from the collective wisdom of the bioinformatics
@@ -57,7 +57,7 @@ export default function Home() {
               decisions about the tools you choose.
             </li>
             <li>
-              <span className="text-yellow-600 font-semibold">
+              <span className="text-pink-600 font-semibold">
                 4. Interactive Community Forum:
               </span>{" "}
               Join our community forum to engage with fellow bioinformaticians,
