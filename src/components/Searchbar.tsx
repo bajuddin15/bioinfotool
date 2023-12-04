@@ -256,10 +256,10 @@ function generateUniqueKey() {
 }
 
 const Searchbar = () => {
-  if (typeof window === 'undefined') {
-    return null; // Return null or a placeholder if running on the server
-  }
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  // if (typeof window === 'undefined') {
+  //   return null; // Return null or a placeholder if running on the server
+  // }
+  const [windowWidth, setWindowWidth] = useState(1300);
 
   useEffect(() => {
     const handleResize = () => {
