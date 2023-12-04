@@ -256,6 +256,9 @@ function generateUniqueKey() {
 }
 
 const Searchbar = () => {
+  if (typeof window === 'undefined') {
+    return null; // Return null or a placeholder if running on the server
+  }
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
