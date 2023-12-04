@@ -9,21 +9,26 @@ import {
 } from "@/components/ui/sheet";
 import Sidebar from "../Sidebar/Sidebar";
 import { Menu } from "lucide-react";
+import Image from "next/image";
+import Logo from "../../assets/images/biotoolhub_logo.svg";
 
 const MobileSidebar = () => {
   return (
     <div>
       <Sheet>
         <SheetTrigger className="text-white">
-          <Menu size={28} color="white" />
+          <Menu size={28} color="black" />
         </SheetTrigger>
         <SheetContent side="left">
           <SheetHeader className="border-b border-gray-300 pb-3">
             <SheetTitle>
-              <h2 className="text-2xl font-bold text-black">
-                Biotool
-                <span className="bg-yellow-500 px-1 mx-1 rounded-md">hub</span>
-              </h2>
+              <Image
+                src={Logo}
+                alt="biotoolhub-logo"
+                width={150}
+                height={150}
+                style={{ marginBottom: 13 }}
+              />
             </SheetTitle>
           </SheetHeader>
           <SheetDescription className="h-full max-h-screen">

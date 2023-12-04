@@ -7,7 +7,6 @@ import { usePathname } from "next/navigation";
 
 const Page = ({ params }: { params: any }) => {
   const pathName = usePathname();
-  console.log("pathname - ", pathName);
   const { state } = useData();
   const { toolsData } = state;
   const index = 0;

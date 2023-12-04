@@ -13,9 +13,7 @@ const CuratedListTool = ({ data, index }: { data: any; index: number }) => {
         <ul className=" ml-10 flex flex-col gap-5">
           {data.data.map((item: any, index: number) => (
             <li key={index}>
-              <h6 className="text-sm font-bold text-yellow-500">
-                {item.name}:
-              </h6>
+              <h6 className="text-sm font-bold text-pink-500">{item.name}:</h6>
               <p className="text-sm text-muted-foreground">
                 <span className="font-semibold">Description:</span>{" "}
                 {item.description}

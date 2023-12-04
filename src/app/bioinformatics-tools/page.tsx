@@ -24,16 +24,6 @@ const BioinformaticsTools = () => {
         </div>
 
         {/* all tools in cards */}
-        <div className="grid grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-8">
-          {toolsData.map((tool, index) => (
-            <div
-              key={index}
-              className="bg-white h-40 rounded-3xl p-5 shadow-md border border-gray-300"
-            >
-              tool
-            </div>
-          ))}
-        </div>
       </div>
     </Wrapper>
   );
